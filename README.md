@@ -13,4 +13,4 @@
 * Cakes and Pastries
 * croissant
 
-link to [MyStats.md](MyStats.md)
+click here [MyStats.md](MyStats.md) to view the Mystats data.
