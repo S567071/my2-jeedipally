@@ -7,3 +7,8 @@
 1. Hiking
 2. Stargazing at the mountains
 3. Shopping
+
+# Food in Switzerland
+* swiss chocolates
+* Cakes and Pastries
+* croissant
