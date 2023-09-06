@@ -12,3 +12,5 @@
 * swiss chocolates
 * Cakes and Pastries
 * croissant
+
+link to [MyStats.md](MyStats.md)
