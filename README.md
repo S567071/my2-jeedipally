@@ -34,3 +34,53 @@ below table describes about 4 different sports and there benifits.
 > " Everything is theoretically impossible, until it is done." - *Robert A. Heinlein.*
 
 > "Science and everyday life cannot and should not be separated." - *Rosalind Franklin*
+
+---
+
+### Code Fencing
+
+> Relevant question on stack overflow : [quick-link to the article on Stack overflow](https://stackoverflow.com/questions/35221259/custom-radio-button-using-css)
+
+```
+/*
+  Hide the original radios and checkboxes
+  (but still accessible)
+
+  :not(#foo) > is a rule filter to block browsers
+  that don't support that selector from
+  applying rules they shouldn't
+
+*/
+li:not(#foo) > fieldset > div > span > input[type='radio'],
+li:not(#foo) > fieldset > div > span > input[type='checkbox'] {
+  /* Hide the input, but have it still be clickable */
+  opacity: 0;
+
+  float: left;
+  width: 18px;
+}
+
+
+li:not(#foo) > fieldset > div > span > input[type='radio'] + label,
+li:not(#foo) > fieldset > div > span > input[type='checkbox'] + label {
+  margin: 0;
+  clear: none;
+
+  /* Left padding makes room for image */
+  padding: 5px 0 4px 24px;
+
+  /* Make look clickable because they are */
+  cursor: pointer;
+
+  background: url(off.png) left center no-repeat;
+}
+
+/* Change from unchecked to checked graphic */
+li:not(#foo) > fieldset > div > span > input[type='radio']:checked + label {
+  background-image: url(radio.png);
+}
+li:not(#foo) > fieldset > div > span > input[type='checkbox']:checked + label {
+  background-image: url(check.png);
+}
+```
+snippet from css-tricks using code fencing : [quick-link for the snippet source](https://css-tricks.com/snippets/css/custom-checkboxes-and-radio-buttons/)
