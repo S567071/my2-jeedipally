@@ -27,3 +27,10 @@ below table describes about 4 different sports and there benifits.
 | Badminton | Badminton reduces rissk of life threatening diseases, helps in reducing stress and anxiety | 8-10 |
 | Hiking | Hiking is the best way to connecct with the nature, reduces stress and improves the muscles strength | 2 |
 | Cycling | Cycling is good for cardiovascular fitness, muscle toning | 6 |
+
+---
+
+### Pithy Quotes
+> " Everything is theoretically impossible, until it is done." - *Robert A. Heinlein.*
+
+> "Science and everyday life cannot and should not be separated." - *Rosalind Franklin*
